@@ -18,5 +18,5 @@ eureka:
 env:
   dev3
 girl:
-  name:lala
-  age:18
+  name: lala
+  age: 18
