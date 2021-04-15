@@ -10,11 +10,18 @@ spring:
     default-property-inclusion: non_null
   application:
     name: order
+  
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+  
 env:
   dev3
 girl:
