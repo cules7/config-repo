@@ -8,8 +8,6 @@ spring:
     show-sql: true
   jackson:
     default-property-inclusion: non_null
-  application:
-    name: order
   
   rabbitmq:
     host: 192.168.99.100
