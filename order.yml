@@ -8,9 +8,6 @@ spring:
     show-sql: true
   jackson:
     default-property-inclusion: non_null
-  application:
-    name: order
-
 eureka:
   client:
     service-url:
